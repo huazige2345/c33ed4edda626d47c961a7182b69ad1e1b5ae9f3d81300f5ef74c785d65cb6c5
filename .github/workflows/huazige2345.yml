@@ -1,31 +1,20 @@
 name: huazige2345
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '28 5/6 * * *'
+    - cron: '25 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: huazige2345
         env:
-          acu44481: ${{ secrets.acu44481 }}
+          hnb709: ${{ secrets.hnb709 }}
         run: |
-          echo $acu44481 | jq -r .dys2 | /bin/bash
-          echo $uyvvu50 | jq -r .iy53503 | /bin/bash
-          echo $j73 | jq -r .kyg4014 | /bin/bash
-          echo $diwpw62 | jq -r .wbbw91404 | /bin/bash
-          echo $hyf99516 | jq -r .hb0267 | /bin/bash
-          echo $vpts46250 | jq -r .z2 | /bin/bash
-          echo $m56311 | jq -r .lgmcr1 | /bin/bash
-          echo $h065 | jq -r .bi2 | /bin/bash
-          echo $epef5 | jq -r .bx26 | /bin/bash
-          echo $vrswz02 | jq -r .svn7 | /bin/bash
-          echo $gxdo06 | jq -r .cxadc87 | /bin/bash
-          echo $hknf76743 | jq -r .gtz1 | /bin/bash
-          echo $jyb77453 | jq -r .zd9449 | /bin/bash
-          echo $aca814 | jq -r .sxhn4 | /bin/bash
-          echo $kfh62915 | jq -r .haswx42 | /bin/bash
-          echo $akkb4851 | jq -r .khpe01844 | /bin/bash
+          echo $hnb709 | jq -r .naql25 | /bin/bash
+          echo $doo08 | jq -r .hij3 | /bin/bash
+          echo $wbfm1773 | jq -r .giib872 | /bin/bash
 
